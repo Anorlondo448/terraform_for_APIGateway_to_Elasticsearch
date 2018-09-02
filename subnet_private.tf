@@ -12,6 +12,7 @@ resource "aws_subnet" "private-1a" {
     Name = "${var.tag_name}-private-1a"
   }
 }
+
 # Availability Zone 1c
 resource "aws_subnet" "private-1c" {
   vpc_id            = "${aws_vpc.main.id}"

@@ -18,7 +18,6 @@ variable "tag_name" {
   default = "es"
 }
 
-
 # VPCのCIDR
 variable "vpc_resource_cidr" {
   default = "10.100.0.0/16"
@@ -28,10 +27,12 @@ variable "vpc_resource_cidr" {
 variable "public_subnet_1a_cidr" {
   default = "10.100.1.0/24"
 }
+
 # Private Subnet(1a)のCIDR
 variable "private_subnet_1a_cidr" {
   default = "10.100.10.0/24"
 }
+
 # Private Subnet(1c)のCIDR
 variable "private_subnet_1c_cidr" {
   default = "10.100.11.0/24"
