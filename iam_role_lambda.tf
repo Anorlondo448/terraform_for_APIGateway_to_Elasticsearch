@@ -3,9 +3,9 @@
 # IAM Role for Lambda
 #
 resource "aws_iam_role" "lambda" {
-    name = "lambda"
+  name = "lambda"
 
-    assume_role_policy = <<POLICY
+  assume_role_policy = <<POLICY
 {
         "Version": "2012-10-17",
         "Statement": [
